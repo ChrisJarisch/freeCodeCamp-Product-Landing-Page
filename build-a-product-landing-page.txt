@@ -1,0 +1,83 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet"
+          href="styles.css"
+          />
+    </head>
+    <body>
+      <header id="header">
+        <img id="header-img"
+             src="https://assets.turbologo.com/blog/en/2021/07/07061100/unnamed.jpg"
+             />
+             <nav id="nav-bar">
+               <ul>
+                 <li><a class="nav-link" href="#about">About</a></li>
+                 <li><a class="nav-link" href="#collections">Collections</a></li>
+                 <li><a class="nav-link"
+                 href="#pricing">Pricing</a></li>
+                 </ul>
+                 </nav>
+             </header>
+             <form id="form" action="https://www.freecodecamp.com/email-submit">
+             <input
+             name="email"
+             id="email"
+             type="email"
+             placeholder="Enter your email address"
+             required
+             />
+             <input
+             id="submit"
+             type="submit"
+             value="submit"
+             class="btn"/>
+             </form>
+             <section id="about">
+               <h2>About</h2>
+               <p>Hermès's leathers come from all over the world. One of them might require 18 to 24 hours to produce. Customers may currently wait from six months to one year for delivery of one of the house's signature bags.</p>
+               </section>
+               <section id="collections">
+                 <iframe 
+                 id="video"
+                 height="315"
+                 src="https://www.youtube.com/watch?v=dkxgM0jajAY">
+                 </iframe>
+                 </section>
+                 <section id="pricing">
+                   <h3>Pricing<h3>
+                     <p>If you are in the market for an Hermes bag, expect this premium handbag to come with a premium price tag. The cost of a new Hermes bag heavily depends on a lot of factors, particularly: the model, material, hardware type, color and size.</p>
+                     </section>
+      </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+nav {
+  position: fixed;
+  top: 0;
+}
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
+  body {
+  background-color: #eeeeee;
+  font-family: 'Lato', sans-serif;
+}
+
+** end of undefined **
+
